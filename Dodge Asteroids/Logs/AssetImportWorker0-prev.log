@@ -1,0 +1,2327 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 16304 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity Hub\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/baha7/Documents/Unity Game Projeleri/Dodge Asteroids
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50807
+Successfully changed project path to: D:/baha7/Documents/Unity Game Projeleri/Dodge Asteroids
+D:/baha7/Documents/Unity Game Projeleri/Dodge Asteroids
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26716] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 1212459439 [EditorId] 1212459439 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RMN5F6E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26716] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 1212459439 [EditorId] 1212459439 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RMN5F6E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 3618.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/baha7/Documents/Unity Game Projeleri/Dodge Asteroids/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity Hub/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Hub/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity Hub/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity Hub/2022.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Program Files/Unity Hub/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008527 seconds.
+- Loaded All Assemblies, in  0.619 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 448 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.015 seconds
+Domain Reload Profiling: 1633ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (152ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (309ms)
+			TypeCache.Refresh (308ms)
+				TypeCache.ScanAssembly (294ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1016ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (932ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (702ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.764 seconds
+Refreshing native plugins compatible for Editor in 18.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.370 seconds
+Domain Reload Profiling: 6134ms
+	BeginReloadAssembly (345ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (4265ms)
+		LoadAssemblies (3759ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (719ms)
+			TypeCache.Refresh (624ms)
+				TypeCache.ScanAssembly (588ms)
+			ScanForSourceGeneratedMonoScriptInfo (69ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1371ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1044ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (539ms)
+			ProcessInitializeOnLoadMethodAttributes (299ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 9.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6253 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (404.2 KB). Loaded Objects now: 6692.
+Memory consumption went from 235.2 MB to 234.8 MB.
+Total: 12.223400 ms (FindLiveObjects: 0.654200 ms CreateObjectMapping: 0.733300 ms MarkObjects: 10.465200 ms  DeleteObjects: 0.369100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8e2e84e102bcae06262a3a4eaa8b9a8a -> 8c7a1289f97af03820fe2e2d95b16382
+  custom:scripting/monoscript/fileName/ButtonClickSound.cs:  -> 40a2c4bd5cbdc7b95c393d66bfc64840
+  custom:scripting/monoscript/fileName/AudioController.cs:  -> 2764cf2a0c380af79ba65a18ae8b1023
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.259 seconds
+Refreshing native plugins compatible for Editor in 19.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.267 seconds
+Domain Reload Profiling: 3525ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (871ms)
+		LoadAssemblies (466ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (540ms)
+			TypeCache.Refresh (522ms)
+				TypeCache.ScanAssembly (499ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2268ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1065ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (497ms)
+			ProcessInitializeOnLoadMethodAttributes (384ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 14.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.0 KB). Loaded Objects now: 6696.
+Memory consumption went from 205.2 MB to 204.9 MB.
+Total: 9.085400 ms (FindLiveObjects: 0.513300 ms CreateObjectMapping: 0.553500 ms MarkObjects: 7.861800 ms  DeleteObjects: 0.156100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.290 seconds
+Refreshing native plugins compatible for Editor in 15.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.056 seconds
+Domain Reload Profiling: 3344ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (875ms)
+		LoadAssemblies (481ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (534ms)
+			TypeCache.Refresh (505ms)
+				TypeCache.ScanAssembly (482ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2056ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (857ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (271ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 12.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.2 KB). Loaded Objects now: 6700.
+Memory consumption went from 205.3 MB to 204.9 MB.
+Total: 9.619200 ms (FindLiveObjects: 0.539000 ms CreateObjectMapping: 0.606400 ms MarkObjects: 8.290900 ms  DeleteObjects: 0.181500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36057.823265 seconds.
+  path: Assets/scripts/ShipControl.cs
+  artifactKey: Guid(ce5fb81762aa0f349a881d4bde2ba968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/ShipControl.cs using Guid(ce5fb81762aa0f349a881d4bde2ba968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f9b6167c190900ed0542dce01a1470') in 0.002600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.309 seconds
+Refreshing native plugins compatible for Editor in 15.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.458 seconds
+Domain Reload Profiling: 3766ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (934ms)
+		LoadAssemblies (517ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (539ms)
+			TypeCache.Refresh (518ms)
+				TypeCache.ScanAssembly (490ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2459ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1210ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (596ms)
+			ProcessInitializeOnLoadMethodAttributes (411ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 21.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.1 KB). Loaded Objects now: 6704.
+Memory consumption went from 205.3 MB to 204.9 MB.
+Total: 13.142700 ms (FindLiveObjects: 0.743200 ms CreateObjectMapping: 0.818400 ms MarkObjects: 11.323700 ms  DeleteObjects: 0.250100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.346 seconds
+Refreshing native plugins compatible for Editor in 13.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.388 seconds
+Domain Reload Profiling: 3733ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (938ms)
+		LoadAssemblies (506ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (586ms)
+			TypeCache.Refresh (568ms)
+				TypeCache.ScanAssembly (542ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2389ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1195ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (598ms)
+			ProcessInitializeOnLoadMethodAttributes (406ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 20.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.1 KB). Loaded Objects now: 6708.
+Memory consumption went from 205.3 MB to 204.9 MB.
+Total: 15.983900 ms (FindLiveObjects: 0.929600 ms CreateObjectMapping: 0.998300 ms MarkObjects: 13.812400 ms  DeleteObjects: 0.241600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 272.990254 seconds.
+  path: Assets/Sounds/button-3.wav
+  artifactKey: Guid(ca5952f7dc9e03148b0bd7e765733fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/button-3.wav using Guid(ca5952f7dc9e03148b0bd7e765733fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695f983312478c9cfd7a813f8dfdfac6') in 0.015156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sounds/Need For Speed Carbon Soundtrack - Hard Drivers.mp3
+  artifactKey: Guid(fb74fc751b0f3dd4fa33d50a989c4b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Need For Speed Carbon Soundtrack - Hard Drivers.mp3 using Guid(fb74fc751b0f3dd4fa33d50a989c4b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52892ee690fcbf670cdbd88962732a07') in 0.001024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 88.335153 seconds.
+  path: Assets/Scenes/Market.unity
+  artifactKey: Guid(9fbe2bacb6d0b354c8ed544dbd79f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Market.unity using Guid(9fbe2bacb6d0b354c8ed544dbd79f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c925a1dc7d97a7b00832bfabcc866b56') in 0.000645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.150 seconds
+Refreshing native plugins compatible for Editor in 16.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.911 seconds
+Domain Reload Profiling: 6060ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (1756ms)
+		LoadAssemblies (1202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (695ms)
+			TypeCache.Refresh (670ms)
+				TypeCache.ScanAssembly (641ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (3912ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1189ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (625ms)
+			ProcessInitializeOnLoadMethodAttributes (337ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 22.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.01 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.2 KB). Loaded Objects now: 6713.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 13.773700 ms (FindLiveObjects: 0.727000 ms CreateObjectMapping: 0.764100 ms MarkObjects: 12.030000 ms  DeleteObjects: 0.251100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.357 seconds
+Refreshing native plugins compatible for Editor in 16.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.438 seconds
+Domain Reload Profiling: 4793ms
+	BeginReloadAssembly (270ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (941ms)
+		LoadAssemblies (506ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (595ms)
+			TypeCache.Refresh (574ms)
+				TypeCache.ScanAssembly (547ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (3439ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1050ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (311ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 14.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.2 KB). Loaded Objects now: 6717.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 10.703300 ms (FindLiveObjects: 0.646100 ms CreateObjectMapping: 0.714700 ms MarkObjects: 9.156100 ms  DeleteObjects: 0.185100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.247 seconds
+Refreshing native plugins compatible for Editor in 14.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.316 seconds
+Domain Reload Profiling: 3561ms
+	BeginReloadAssembly (259ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (850ms)
+		LoadAssemblies (458ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (519ms)
+			TypeCache.Refresh (500ms)
+				TypeCache.ScanAssembly (476ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2317ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1087ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (598ms)
+			ProcessInitializeOnLoadMethodAttributes (297ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 23.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.3 KB). Loaded Objects now: 6721.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 10.758800 ms (FindLiveObjects: 0.727200 ms CreateObjectMapping: 0.726800 ms MarkObjects: 9.109300 ms  DeleteObjects: 0.194000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.290 seconds
+Refreshing native plugins compatible for Editor in 15.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.420 seconds
+Domain Reload Profiling: 3709ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (898ms)
+		LoadAssemblies (461ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (569ms)
+			TypeCache.Refresh (550ms)
+				TypeCache.ScanAssembly (528ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2421ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1143ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (265ms)
+			ProcessInitializeOnLoadAttributes (460ms)
+			ProcessInitializeOnLoadMethodAttributes (366ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Refreshing native plugins compatible for Editor in 25.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.2 KB). Loaded Objects now: 6725.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 9.971400 ms (FindLiveObjects: 0.596200 ms CreateObjectMapping: 0.688200 ms MarkObjects: 8.510200 ms  DeleteObjects: 0.175700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.331 seconds
+Refreshing native plugins compatible for Editor in 12.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.543 seconds
+Domain Reload Profiling: 3873ms
+	BeginReloadAssembly (290ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (905ms)
+		LoadAssemblies (510ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (557ms)
+			TypeCache.Refresh (540ms)
+				TypeCache.ScanAssembly (518ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2543ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1198ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (546ms)
+			ProcessInitializeOnLoadMethodAttributes (417ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 19.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.1 KB). Loaded Objects now: 6729.
+Memory consumption went from 205.3 MB to 204.9 MB.
+Total: 14.801000 ms (FindLiveObjects: 0.838400 ms CreateObjectMapping: 0.956300 ms MarkObjects: 12.789800 ms  DeleteObjects: 0.215200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.317 seconds
+Refreshing native plugins compatible for Editor in 13.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.436 seconds
+Domain Reload Profiling: 3751ms
+	BeginReloadAssembly (283ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (892ms)
+		LoadAssemblies (488ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (550ms)
+			TypeCache.Refresh (532ms)
+				TypeCache.ScanAssembly (510ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2436ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1155ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (573ms)
+			ProcessInitializeOnLoadMethodAttributes (390ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 17.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.1 KB). Loaded Objects now: 6733.
+Memory consumption went from 205.3 MB to 205.0 MB.
+Total: 14.382200 ms (FindLiveObjects: 0.787600 ms CreateObjectMapping: 1.352200 ms MarkObjects: 11.951100 ms  DeleteObjects: 0.289800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.405 seconds
+Refreshing native plugins compatible for Editor in 17.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.599 seconds
+Domain Reload Profiling: 4002ms
+	BeginReloadAssembly (378ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (174ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (899ms)
+		LoadAssemblies (489ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (551ms)
+			TypeCache.Refresh (530ms)
+				TypeCache.ScanAssembly (503ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2600ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1234ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (591ms)
+			ProcessInitializeOnLoadMethodAttributes (408ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 20.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.1 KB). Loaded Objects now: 6737.
+Memory consumption went from 205.3 MB to 205.0 MB.
+Total: 14.696100 ms (FindLiveObjects: 0.891300 ms CreateObjectMapping: 0.863800 ms MarkObjects: 12.734200 ms  DeleteObjects: 0.204100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.309 seconds
+Refreshing native plugins compatible for Editor in 12.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.497 seconds
+Domain Reload Profiling: 3804ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (909ms)
+		LoadAssemblies (473ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (557ms)
+			TypeCache.Refresh (535ms)
+				TypeCache.ScanAssembly (512ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2498ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1211ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (593ms)
+			ProcessInitializeOnLoadMethodAttributes (405ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Refreshing native plugins compatible for Editor in 22.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.0 KB). Loaded Objects now: 6741.
+Memory consumption went from 205.3 MB to 205.0 MB.
+Total: 13.338900 ms (FindLiveObjects: 0.909600 ms CreateObjectMapping: 1.005400 ms MarkObjects: 11.207800 ms  DeleteObjects: 0.214200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.284 seconds
+Refreshing native plugins compatible for Editor in 14.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.913 seconds
+Domain Reload Profiling: 3194ms
+	BeginReloadAssembly (264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (867ms)
+		LoadAssemblies (488ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (527ms)
+			TypeCache.Refresh (498ms)
+				TypeCache.ScanAssembly (473ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1914ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (846ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (255ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 12.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.2 KB). Loaded Objects now: 6745.
+Memory consumption went from 205.3 MB to 205.0 MB.
+Total: 9.632300 ms (FindLiveObjects: 0.591300 ms CreateObjectMapping: 0.563000 ms MarkObjects: 8.289800 ms  DeleteObjects: 0.187000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 921.040744 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(195a9d1f095a9c8419beb0bd19b70359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(195a9d1f095a9c8419beb0bd19b70359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8564c8ab721c57cc0a0983118effe394') in 0.006140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.269 seconds
+Refreshing native plugins compatible for Editor in 13.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.299 seconds
+Domain Reload Profiling: 3566ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (892ms)
+		LoadAssemblies (478ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (545ms)
+			TypeCache.Refresh (522ms)
+				TypeCache.ScanAssembly (501ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2299ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1121ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (535ms)
+			ProcessInitializeOnLoadMethodAttributes (391ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 20.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.1 KB). Loaded Objects now: 6749.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 11.883900 ms (FindLiveObjects: 0.637100 ms CreateObjectMapping: 0.690900 ms MarkObjects: 10.340100 ms  DeleteObjects: 0.214000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 128.423796 seconds.
+  path: Assets/Scenes/Market.unity
+  artifactKey: Guid(9fbe2bacb6d0b354c8ed544dbd79f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Market.unity using Guid(9fbe2bacb6d0b354c8ed544dbd79f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec3331efff3879331a5b33de84b4a7a') in 0.001734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.236 seconds
+Refreshing native plugins compatible for Editor in 11.52 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.895 seconds
+Domain Reload Profiling: 3130ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (846ms)
+		LoadAssemblies (453ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (537ms)
+			TypeCache.Refresh (508ms)
+				TypeCache.ScanAssembly (485ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1895ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (811ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (254ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 12.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.2 KB). Loaded Objects now: 6753.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 8.661200 ms (FindLiveObjects: 0.565200 ms CreateObjectMapping: 0.576200 ms MarkObjects: 7.319100 ms  DeleteObjects: 0.199700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.565 seconds
+Refreshing native plugins compatible for Editor in 19.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.839 seconds
+Domain Reload Profiling: 5402ms
+	BeginReloadAssembly (280ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (1075ms)
+		LoadAssemblies (528ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (710ms)
+			TypeCache.Refresh (678ms)
+				TypeCache.ScanAssembly (650ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (3840ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (289ms)
+			ProcessInitializeOnLoadAttributes (1248ms)
+			ProcessInitializeOnLoadMethodAttributes (833ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 24.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.1 KB). Loaded Objects now: 6757.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 18.385300 ms (FindLiveObjects: 1.048200 ms CreateObjectMapping: 1.029600 ms MarkObjects: 15.983200 ms  DeleteObjects: 0.322400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 310.081090 seconds.
+  path: Assets/scripts/GameManager.cs
+  artifactKey: Guid(c64d895e5ea966d46b342b76447a3d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/GameManager.cs using Guid(c64d895e5ea966d46b342b76447a3d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96eeb0109c7b2b0f4f9e5233bda87631') in 0.001872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.281 seconds
+Refreshing native plugins compatible for Editor in 13.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.876 seconds
+Domain Reload Profiling: 3156ms
+	BeginReloadAssembly (297ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (847ms)
+		LoadAssemblies (493ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (508ms)
+			TypeCache.Refresh (483ms)
+				TypeCache.ScanAssembly (463ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1876ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (808ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (254ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 14.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.2 KB). Loaded Objects now: 6761.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 12.152700 ms (FindLiveObjects: 0.672000 ms CreateObjectMapping: 0.694400 ms MarkObjects: 10.600300 ms  DeleteObjects: 0.184700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.201 seconds
+Refreshing native plugins compatible for Editor in 18.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.376 seconds
+Domain Reload Profiling: 3576ms
+	BeginReloadAssembly (253ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (816ms)
+		LoadAssemblies (451ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (502ms)
+			TypeCache.Refresh (482ms)
+				TypeCache.ScanAssembly (459ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2377ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1137ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (552ms)
+			ProcessInitializeOnLoadMethodAttributes (377ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 16.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.1 KB). Loaded Objects now: 6765.
+Memory consumption went from 205.3 MB to 205.0 MB.
+Total: 11.608200 ms (FindLiveObjects: 0.704200 ms CreateObjectMapping: 0.784000 ms MarkObjects: 9.879200 ms  DeleteObjects: 0.239300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.206 seconds
+Refreshing native plugins compatible for Editor in 13.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.294 seconds
+Domain Reload Profiling: 3499ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (830ms)
+		LoadAssemblies (477ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (479ms)
+			TypeCache.Refresh (464ms)
+				TypeCache.ScanAssembly (441ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2295ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1102ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (545ms)
+			ProcessInitializeOnLoadMethodAttributes (364ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 17.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.2 KB). Loaded Objects now: 6769.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 10.976300 ms (FindLiveObjects: 0.698800 ms CreateObjectMapping: 0.726100 ms MarkObjects: 9.272500 ms  DeleteObjects: 0.277200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.289 seconds
+Refreshing native plugins compatible for Editor in 19.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.274 seconds
+Domain Reload Profiling: 3562ms
+	BeginReloadAssembly (259ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (899ms)
+		LoadAssemblies (441ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (591ms)
+			TypeCache.Refresh (564ms)
+				TypeCache.ScanAssembly (538ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2275ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (930ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (459ms)
+			ProcessInitializeOnLoadMethodAttributes (266ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 17.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.2 KB). Loaded Objects now: 6773.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 11.385500 ms (FindLiveObjects: 0.650700 ms CreateObjectMapping: 0.691200 ms MarkObjects: 9.850200 ms  DeleteObjects: 0.192000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.273 seconds
+Refreshing native plugins compatible for Editor in 12.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.814 seconds
+Domain Reload Profiling: 4086ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (891ms)
+		LoadAssemblies (476ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (552ms)
+			TypeCache.Refresh (531ms)
+				TypeCache.ScanAssembly (509ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2815ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1256ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (215ms)
+			ProcessInitializeOnLoadAttributes (637ms)
+			ProcessInitializeOnLoadMethodAttributes (346ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 20.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (372.2 KB). Loaded Objects now: 6777.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 11.400300 ms (FindLiveObjects: 0.663500 ms CreateObjectMapping: 0.722100 ms MarkObjects: 9.815200 ms  DeleteObjects: 0.198300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.540 seconds
+Refreshing native plugins compatible for Editor in 14.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.435 seconds
+Domain Reload Profiling: 3973ms
+	BeginReloadAssembly (273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (1102ms)
+		LoadAssemblies (534ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (701ms)
+			TypeCache.Refresh (660ms)
+				TypeCache.ScanAssembly (628ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2435ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1072ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (516ms)
+			ProcessInitializeOnLoadMethodAttributes (329ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 12.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (371.8 KB). Loaded Objects now: 6781.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 9.032600 ms (FindLiveObjects: 0.593300 ms CreateObjectMapping: 0.618900 ms MarkObjects: 7.659100 ms  DeleteObjects: 0.160000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\baha7\Documents\Unity Game Projeleri\Dodge Asteroids\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.232 seconds
+Refreshing native plugins compatible for Editor in 12.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+You appear to be missing the GooglePlayTangle and AppleTangle classes. CLICK ME for instructions on how to generate them or see the README for more information.
+To generate these classes in your project, do the following:
+	1. Get your license key from the Google Play Developer Console. (Skip this step if you do not plan on supporting the Google Play Store)
+		a. Select your app from the list.
+		b. Go to "Monetization setup" under "Monetize".
+		c. Copy the key from the "Licensing" section.
+	2. Open the obfuscation window from Services > In-App Purchasing > Receipt Validation Obfuscator.
+	3. Paste your Google Play key. (Skip this step if you do not plan on supporting the Google Play Store)
+	4. Obfuscate the key. (Creates GooglePlayTangle and AppleTangle classes in your project.)
+	5. (Optional) To ensure correct revenue data, enter your key in the Analytics dashboard.
+
+See README for more information.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:WarnMissingTangleClasses () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:56)
+Samples.Purchasing.Core.LocalReceiptValidation.MissingTangleClassesWarning:.cctor () (at Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/In App Purchasing/4.9.3/05 Local Receipt Validation/MissingTangleClassesWarning.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.804 seconds
+Domain Reload Profiling: 3033ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (853ms)
+		LoadAssemblies (451ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (530ms)
+			TypeCache.Refresh (500ms)
+				TypeCache.ScanAssembly (474ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1805ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (765ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (245ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 12.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (371.7 KB). Loaded Objects now: 6785.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 9.050500 ms (FindLiveObjects: 0.563600 ms CreateObjectMapping: 0.585100 ms MarkObjects: 7.737200 ms  DeleteObjects: 0.163300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1612.310514 seconds.
+  path: Assets/scripts/AudioController.cs
+  artifactKey: Guid(7b18d5edfafd72b4591d03518e179ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/AudioController.cs using Guid(7b18d5edfafd72b4591d03518e179ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2690a7b5cac16fe12fdaaa4a3c966afe') in 0.001606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.062912 seconds.
+  path: Assets/scripts/CoinMaker.cs
+  artifactKey: Guid(48ab5dfffb201db4aaed18ece197b886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/CoinMaker.cs using Guid(48ab5dfffb201db4aaed18ece197b886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f542dbe91034b35232c3f4abe18f6d8f') in 0.000552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.041194 seconds.
+  path: Assets/scripts/ButtonClickSound.cs
+  artifactKey: Guid(7bcfc50a0fcb86b44acc78e377e321a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/ButtonClickSound.cs using Guid(7bcfc50a0fcb86b44acc78e377e321a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521aa37f99cbd642e78d984603da5a46') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.070884 seconds.
+  path: Assets/scripts/GameManager.cs
+  artifactKey: Guid(c64d895e5ea966d46b342b76447a3d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/GameManager.cs using Guid(c64d895e5ea966d46b342b76447a3d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86e728e355e099d3cc03e16c1d67270') in 0.000491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.140271 seconds.
+  path: Assets/scripts/Market.cs
+  artifactKey: Guid(732b973bdc14c9241bf2c9783c8ba6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Market.cs using Guid(732b973bdc14c9241bf2c9783c8ba6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6d431a53e0a749a06e156fbefdfe1f') in 0.000718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.652587 seconds.
+  path: Assets/scripts/SceneSwitcher.cs
+  artifactKey: Guid(8a296cb1f20252b468582f139ca0d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/SceneSwitcher.cs using Guid(8a296cb1f20252b468582f139ca0d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614b8a85ba20fd64fbf8dc4b5706dfe4') in 0.000511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.099931 seconds.
+  path: Assets/scripts/ScoreSetter.cs
+  artifactKey: Guid(7874d21bb906d4b48a9caedc6f39f04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/ScoreSetter.cs using Guid(7874d21bb906d4b48a9caedc6f39f04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b0dd5df9185f22807ce35bdc617a09') in 0.000480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.613651 seconds.
+  path: Assets/scripts/SpaceshipController.cs
+  artifactKey: Guid(6b400107cb6b09148aff6019d346472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/SpaceshipController.cs using Guid(6b400107cb6b09148aff6019d346472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecb26e5df0baec28f3dfab78cb606c6') in 0.000491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
