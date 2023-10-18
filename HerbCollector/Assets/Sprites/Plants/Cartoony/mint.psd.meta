@@ -1,0 +1,1282 @@
+fileFormatVersion: 2
+guid: 17b7c93c60eb2f14fa7399c564c21c2f
+importerOverride:
+  nativeImporterType: -2
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: b166bb86ae3fbc684e03a9996193b11d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 616a93014351e9d4b83b96c91111e693, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 1
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 150
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData:
+  - name: Face1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 355
+      width: 53
+      height: 43
+    spriteID: a99b822ff305aa24c9d5af2325c35645
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 355}
+    spritePosition: {x: 107, y: 98}
+  - name: head_line
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 4
+      width: 55
+      height: 58
+    spriteID: b726ea249408d7945bbe86674343b411
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 4}
+    spritePosition: {x: 113, y: 74}
+  - name: head_paint
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 70
+      width: 50
+      height: 55
+    spriteID: 9964138ce2debf840acf332f66c2280c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 70}
+    spritePosition: {x: 115, y: 75}
+  - name: puff_line
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 157
+      height: 152
+    spriteID: 2580b6dba1fe92a48a63fba7b7ca9b41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 26, y: 51}
+  - name: puff_paint
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 164
+      width: 152
+      height: 144
+    spriteID: ff95d780cc95cc6449617d9c5151e85c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 164}
+    spritePosition: {x: 30, y: 57}
+  - name: frontPetal_line
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 316
+      width: 76
+      height: 31
+    spriteID: f45bc7db6bd40ad488d0f69b09967599
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 316}
+    spritePosition: {x: 117, y: 0}
+  - name: frontPetal_paint
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 316
+      width: 63
+      height: 27
+    spriteID: fbe14b63c64be79448c61c439ee9d680
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 316}
+    spritePosition: {x: 124, y: 2}
+  - name: stem_line
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 355
+      width: 30
+      height: 77
+    spriteID: 55d1a8eb0a5015945826a00030f8a6f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 355}
+    spritePosition: {x: 136, y: 10}
+  - name: stem_paint
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 406
+      width: 27
+      height: 75
+    spriteID: 42d2bcff56cf3474c90e9c10c470537b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 406}
+    spritePosition: {x: 138, y: 11}
+  - name: backPetalRight_line
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 355
+      width: 40
+      height: 24
+    spriteID: cef79f58a9d47bc4b9df9069289348a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 355}
+    spritePosition: {x: 159, y: 12}
+  - name: backPetalRight_paint
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 133
+      width: 31
+      height: 21
+    spriteID: 7f465b33dbd5ce141b4d67f7e685962d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 216, y: 133}
+    spritePosition: {x: 161, y: 13}
+  - name: backPetalLeft_line
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 133
+      width: 39
+      height: 22
+    spriteID: 812a453ef5791e944a779d24d0a05643
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 133}
+    spritePosition: {x: 106, y: 14}
+  - name: backPetalLeft_paint
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 406
+      width: 34
+      height: 19
+    spriteID: 9ec0d64f87a6a814180cb26259fa44b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 406}
+    spritePosition: {x: 111, y: 16}
+  rigSpriteImportData:
+  - name: MintFace2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 44
+      width: 48
+      height: 23
+    spriteID: 410effc0c6f0b7c489a2f1c6103d05e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 102, y: 44}
+    spritePosition: {x: 112, y: 117}
+  - name: MintFace1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 81
+      width: 53
+      height: 24
+    spriteID: a7c54c04b3d4a6a48b45b2acd211095c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 128, y: 81}
+    spritePosition: {x: 106, y: 118}
+  - name: MintFlower3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 127
+      width: 43
+      height: 44
+    spriteID: a7bd048e4a788c64a93f7a64a6b34c08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 127}
+    spritePosition: {x: 55, y: 162}
+  - name: MintFlower2
+    originalName: 
+    pivot: {x: 0.5942621, y: 0.3447445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 211
+      width: 24
+      height: 17
+    spriteID: 6e1d8a73c06ed00468e4ae3d7276bacf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 211}
+    spritePosition: {x: 94, y: 185}
+  - name: MintFlower1
+    originalName: 
+    pivot: {x: 0.5440705, y: 0.39085388}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 81
+      width: 77
+      height: 38
+    spriteID: 83dc06b12d57edc4f8c905b7cc2f3c52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 81}
+    spritePosition: {x: 79, y: 160}
+  - name: MintAntenna
+    originalName: 
+    pivot: {x: 0.5362546, y: 0.052256122}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 4
+      width: 104
+      height: 32
+    spriteID: f4c1149d6ff35b545931d267a6f63493
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 102, y: 4}
+    spritePosition: {x: 73, y: 135}
+  - name: MintHead
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 90
+      height: 69
+    spriteID: 7f8243c0371766e469f9841358f85961
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 84, y: 99}
+  - name: mint-stem1
+    originalName: 
+    pivot: {x: 0.47567454, y: 0.033326633}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 81
+      width: 31
+      height: 122
+    spriteID: 180499bb4987a8940a733d48ce4a2a8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 81}
+    spritePosition: {x: 115, y: 5}
+  - name: mint-stem2
+    originalName: 
+    pivot: {x: 0.638912, y: 0.090448245}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 179
+      width: 19
+      height: 58
+    spriteID: 340eb4b2dcf98534f8fa4d5c6ac334d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 179}
+    spritePosition: {x: 114, y: 120}
+  - name: mint-stem3
+    originalName: 
+    pivot: {x: 0.83628595, y: 0.17495885}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 4
+      width: 37
+      height: 29
+    spriteID: 2507856a68c31384e86b89e307b9b69c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 4}
+    spritePosition: {x: 89, y: 171}
+  - name: mint-stem4
+    originalName: 
+    pivot: {x: 0.9398884, y: 0.88882923}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 190
+      y: 81
+      width: 36
+      height: 32
+    spriteID: 6921d5b0c416dc341b16109446d77e3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 81}
+    spritePosition: {x: 57, y: 168}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 1
+  layerMappingOption: 1
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers:
+  - name: Face2
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e31d6b06bc6779340847fc6125d4edd0
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Face1
+    spriteName: Face1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a99b822ff305aa24c9d5af2325c35645
+    layerID: 0
+    mosaicPosition: {x: 42, y: 355}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Head
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 0dcbf04f6e64994458e8a5038bff86f7
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: head_line
+    spriteName: head_line
+    isGroup: 0
+    parentIndex: 2
+    spriteID: b726ea249408d7945bbe86674343b411
+    layerID: 0
+    mosaicPosition: {x: 169, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: head_paint
+    spriteName: head_paint
+    isGroup: 0
+    parentIndex: 2
+    spriteID: 9964138ce2debf840acf332f66c2280c
+    layerID: 0
+    mosaicPosition: {x: 169, y: 70}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Puff
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 43a4fe89e57c44442b5a3d9e35b0ffe1
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: puff_line
+    spriteName: puff_line
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 2580b6dba1fe92a48a63fba7b7ca9b41
+    layerID: 0
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: puff_paint
+    spriteName: puff_paint
+    isGroup: 0
+    parentIndex: 5
+    spriteID: ff95d780cc95cc6449617d9c5151e85c
+    layerID: 0
+    mosaicPosition: {x: 4, y: 164}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: FrontPetals
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 3fbcba9756d24b342ae895e4ed2ba5ce
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: frontPetal_line
+    spriteName: frontPetal_line
+    isGroup: 0
+    parentIndex: 8
+    spriteID: f45bc7db6bd40ad488d0f69b09967599
+    layerID: 0
+    mosaicPosition: {x: 4, y: 316}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: frontPetal_paint
+    spriteName: frontPetal_paint
+    isGroup: 0
+    parentIndex: 8
+    spriteID: fbe14b63c64be79448c61c439ee9d680
+    layerID: 0
+    mosaicPosition: {x: 88, y: 316}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Stem
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 5e118107bad5a67488e7ca063ad8589d
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: stem_line
+    spriteName: stem_line
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 55d1a8eb0a5015945826a00030f8a6f1
+    layerID: 0
+    mosaicPosition: {x: 4, y: 355}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: stem_paint
+    spriteName: stem_paint
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 42d2bcff56cf3474c90e9c10c470537b
+    layerID: 0
+    mosaicPosition: {x: 42, y: 406}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BackPetalRight
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 68938a941e552fc4da30e420f65a4541
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: backPetalRight_line
+    spriteName: backPetalRight_line
+    isGroup: 0
+    parentIndex: 14
+    spriteID: cef79f58a9d47bc4b9df9069289348a2
+    layerID: 0
+    mosaicPosition: {x: 103, y: 355}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: backPetalRight_paint
+    spriteName: backPetalRight_paint
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 7f465b33dbd5ce141b4d67f7e685962d
+    layerID: 0
+    mosaicPosition: {x: 216, y: 133}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BackPedalLeft
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: b592087a1dcb2c04ba735d5c83f4e947
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: backPetalLeft_line
+    spriteName: backPetalLeft_line
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 812a453ef5791e944a779d24d0a05643
+    layerID: 0
+    mosaicPosition: {x: 169, y: 133}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: backPetalLeft_paint
+    spriteName: backPetalLeft_paint
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 9ec0d64f87a6a814180cb26259fa44b6
+    layerID: 0
+    mosaicPosition: {x: 77, y: 406}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  rigPSDLayers:
+  - name: MintFace2
+    spriteName: MintFace2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 410effc0c6f0b7c489a2f1c6103d05e4
+    layerID: 0
+    mosaicPosition: {x: 102, y: 44}
+    flatten: 0
+    isImported: 1
+    isVisible: 0
+  - name: MintFace1
+    spriteName: MintFace1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a7c54c04b3d4a6a48b45b2acd211095c
+    layerID: 0
+    mosaicPosition: {x: 128, y: 81}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MintFlower3
+    spriteName: MintFlower3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a7bd048e4a788c64a93f7a64a6b34c08
+    layerID: 0
+    mosaicPosition: {x: 43, y: 127}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MintFlower2
+    spriteName: MintFlower2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6e1d8a73c06ed00468e4ae3d7276bacf
+    layerID: 0
+    mosaicPosition: {x: 4, y: 211}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MintFlower1
+    spriteName: MintFlower1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 83dc06b12d57edc4f8c905b7cc2f3c52
+    layerID: 0
+    mosaicPosition: {x: 43, y: 81}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MintAntenna
+    spriteName: MintAntenna
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f4c1149d6ff35b545931d267a6f63493
+    layerID: 0
+    mosaicPosition: {x: 102, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MintHead
+    spriteName: MintHead
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7f8243c0371766e469f9841358f85961
+    layerID: 0
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MintLeftLeaf
+    spriteName: MintLeftLeaf
+    isGroup: 1
+    parentIndex: -1
+    spriteID: f87221e2f62a89642ba9b71036416877
+    layerID: 0
+    mosaicPosition: {x: 101, y: 121}
+    flatten: 1
+    isImported: 0
+    isVisible: 1
+  - name: leftLeaf_line
+    spriteName: leftLeaf_line
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 75c1dd7ed4dc43f40ad867db331b10bb
+    layerID: 0
+    mosaicPosition: {x: 4, y: 434}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leftLeaf_paint
+    spriteName: leftLeaf_paint
+    isGroup: 0
+    parentIndex: 7
+    spriteID: e481169c879704c4089bacb8be84dd1b
+    layerID: 0
+    mosaicPosition: {x: 43, y: 133}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: MintFrontPetal
+    spriteName: MintFrontPetal
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 6cbc16693fb374c44afc303ef501a78a
+    layerID: 0
+    mosaicPosition: {x: 4, y: 337}
+    flatten: 1
+    isImported: 0
+    isVisible: 1
+  - name: frontPetal_line
+    spriteName: frontPetal_line
+    isGroup: 0
+    parentIndex: 10
+    spriteID: 9ae0701aa0d228540a5b6a23b80ab09f
+    layerID: 0
+    mosaicPosition: {x: 4, y: 257}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: frontPetal_paint
+    spriteName: frontPetal_paint
+    isGroup: 0
+    parentIndex: 10
+    spriteID: ef0fa7b9f9ff96b45894ff2b4b5c696c
+    layerID: 0
+    mosaicPosition: {x: 4, y: 297}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: MintStemSplit
+    spriteName: MintStemSplit
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 6de8610f247d4814981b18ddb0f71b73
+    layerID: 0
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: mint-stem1
+    spriteName: mint-stem1
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 180499bb4987a8940a733d48ce4a2a8e
+    layerID: 0
+    mosaicPosition: {x: 4, y: 81}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: mint-stem2
+    spriteName: mint-stem2
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 340eb4b2dcf98534f8fa4d5c6ac334d1
+    layerID: 0
+    mosaicPosition: {x: 43, y: 179}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: mint-stem3
+    spriteName: mint-stem3
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 2507856a68c31384e86b89e307b9b69c
+    layerID: 0
+    mosaicPosition: {x: 214, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: mint-stem4
+    spriteName: mint-stem4
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 6921d5b0c416dc341b16109446d77e3a
+    layerID: 0
+    mosaicPosition: {x: 190, y: 81}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MintStem
+    spriteName: MintStem
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 5f0559f1e6731074eabde29cdd8eef5d
+    layerID: 0
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 1
+    isImported: 0
+    isVisible: 0
+  - name: stem_line
+    spriteName: stem_line
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 0f6996abd1062ef48b4bea589b29696b
+    layerID: 0
+    mosaicPosition: {x: 4, y: 219}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: stem_paint
+    spriteName: stem_paint
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 05a99f782e3e4bc41b0e2324424abe4d
+    layerID: 0
+    mosaicPosition: {x: 44, y: 219}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: MintRightLeaf
+    spriteName: MintRightLeaf
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 021205fc5e826f741add7a1be1f14c19
+    layerID: 0
+    mosaicPosition: {x: 4, y: 426}
+    flatten: 1
+    isImported: 0
+    isVisible: 1
+  - name: rightLeaf_line
+    spriteName: rightLeaf_line
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 84fb4d7711f42db429077a11fd98e0b5
+    layerID: 0
+    mosaicPosition: {x: 4, y: 340}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: rightLeaf_paint
+    spriteName: rightLeaf_paint
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 7272ecb0f2424714881db02787cd3d03
+    layerID: 0
+    mosaicPosition: {x: 4, y: 388}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting:
+  - spriteId: c0d3ddac0d57bfa4aa97ae75d10ae6d0
+    name: Head
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 5ad9aaaaac9d20e42be9101d2f31f866
+    name: Puff
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: b67f01ced9681dc41af861f407b6ac71
+    name: FrontPetals
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: d86d05496d957b04180cd401beee257b
+    name: Stem
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: ec21a1c4a596ffc488f6d5534b9e7e46
+    name: BackPetalRight
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 10eafeba7672bf040a0be0f4fadcacc6
+    name: BackPedalLeft
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 4f5d0ac03e1efc04e88b1444aba9c417
+    name: NettleRootLeafM
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: afd69c317f5ccf14a934b2788b6c610f
+    name: NettleRootLeafL
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: b38999ea66f6cf943a3cec2cc1f68367
+    name: NettleRootLeafR
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 3ea63a0de3beec44389d102241d40fbc
+    name: NettleLeftEye
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 4b43fc0d74455be4a9dfec57f1645fb5
+    name: NettleRightEye
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 8e689e0f99e1fc345b603962b37387d0
+    name: NettleLeafTL
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 2b20893503dceba4e92c242ec3b73143
+    name: NettleLeafTR
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 4515406afc8117a45ac5844b9ef91029
+    name: NettleLeafTM
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 6e82bcd3aa120ee43a160f217ad0b209
+    name: NettleLeafBL
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: fef4b6b7304a19d4292eb398e3ec004d
+    name: NettleLeafBR
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 755bcb155520c1546b9ab06231c66cb5
+    name: NettleStem
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: f87221e2f62a89642ba9b71036416877
+    name: MintLeftLeaf
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 6cbc16693fb374c44afc303ef501a78a
+    name: MintFrontPetal
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 6de8610f247d4814981b18ddb0f71b73
+    name: MintStemSplit
+    layerId: 0
+    flatten: 0
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 5f0559f1e6731074eabde29cdd8eef5d
+    name: MintStem
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 021205fc5e826f741add7a1be1f14c19
+    name: MintRightLeaf
+    layerId: 0
+    flatten: 1
+    isGroup: 1
+    importLayer: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
